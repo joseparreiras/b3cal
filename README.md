@@ -13,7 +13,7 @@
 
 ---
 
-<p align="center"> A package for Brazilian financial market calendar and holidays.
+<p align="center"> A package for Brazilian financial market calendar and holidays. 
 <br>
 </p>
 
@@ -50,7 +50,7 @@ Likewise, these packages will be installed automatically when you install the pa
 To install the package, you can use `pip`.
 
 ```bash
-pip git+https://github.com/joseparreiras/b3cal
+pip install git+https://github.com/joseparreiras/b3cal
 ```
 
 ## 🔧 Documentation <a name = "doc"></a>
@@ -176,6 +176,7 @@ Input dates will only be filtered after `2001-01-01`. Using dates prior to this 
 
 - [@joseparreiras](https://github.com/joseparreiras) - Idea & Initial work
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+## 🎉 References <a name = "acknowledgement"></a>
 
-- References to the `pandas_market_calendars` module available [here](https://pypi.org/project/pandas-market-calendars/)
+- `pandas_market_calendars` module available [here](https://pypi.org/project/pandas-market-calendars/)
+- Holidays source: [ANBIMA](https://www.anbima.com.br/feriados/)
